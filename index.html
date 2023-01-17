@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b6bbf7247d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/SOMNIX png logo.png" alt="" class="logo" width="60" height="80">
+                <ul id = "sidemenu">
+                    <li><a href="#header" onclick="closemenu()">Home</a></li>
+                    <li><a href="#About" onclick="closemenu()">About</a></li>
+                    <li><a href="#services" onclick="closemenu()">Services</a></li>
+                    <li><a href="#portfolio" onclick="closemenu()">Portfolio</a></li>
+                    <li><a href="#contact" onclick="closemenu()">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                    
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Game developer</p>
+                <h1>Hi , I'm <span>Ramiz Ali</span><br> from Pakistan</h1>
+            </div>
+        </div>
+    </div>
+<!--------------------------------about------------------------->
+    <div id ="About">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/ramiz2.JPG" height="300" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Co-founder of "SOMNIX" a startup where we deliver the best services and solutions
+                        I've great experience in Game Development especially in Unity Engine and c# and worked in both 2D and 3D games.Looking for a minimal logo design? then you have come to the right place</p>
+
+                        <div class="tab-title">
+                            <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="Skills">
+                            <ul>
+                                <li><span>Game</span><br>Development</li>
+                                <li><span>Graphic</span><br>Designing</li>
+                                <li><span>Desktop</span><br>Development</li>
+                            </ul>
+                            <div class="tab-contents" id="Experience">
+                                <ul>
+                                    <li><span>Game</span><br>Developmncednent</li>
+                                    <li><span>Graphic</span><br>Designing</li>
+                                    <li><span>Desktop</span><br>Development</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="Education">
+                            <ul>
+                                <li><span>Game</span><br>Development</li>
+                                <li><span>Graphic</span><br>Designing</li>
+                                <li><span>Desktop</span><br>Development</li>
+                            </ul>
+                            </div>
+                        </div>
+                </div>
+            </div>    
+        </div>
+    </div>
+
+    <!---------------------------------------------services---------------------------------------------->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-unity"></i>
+                    <h2>Game Development</h2>
+                    <P>Dummy text refers to the bits of content that are used to fill a website mock-up. This text helps web designers better envision how the website will look as a finished product. It is important to understand that dummy text has no meaning whatsoever.</P>
+                    <a href="">Learn more</a>
+
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Graphic Designing</h2>
+                    <P>Dummy text refers to the bits of content that are used to fill a website mock-up. This text helps web designers better envision how the website will look as a finished product. It is important to understand that dummy text has no meaning whatsoever.</P>
+                    <a href="">Learn more</a>
+                    
+                </div>
+                <div>
+                    <i class="fa-solid fa-desktop"></i>
+                    <h2>Desktop Development</h2>
+                    <P>Dummy text refers to the bits of content that are used to fill a website mock-up. This text helps web designers better envision how the website will look as a finished product. It is important to understand that dummy text has no meaning whatsoever.</P>
+                    <a href="">Learn more</a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-----------------------------portfolio--------------------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/game.png" >
+                    <div class="layer">
+                        <h3>Game</h3>
+                        <P>Games provide you entertainment and also help you spend your free time </P>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/graphic.png" >
+                    <div class="layer">
+                        <h3>Graphic Designing</h3>
+                        <P>Games provide you entertainment and also help you spend your free time </P>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/graphic.png" >
+                    <div class="layer">
+                        <h3>Desktop Application</h3>
+                        <P>Games provide you entertainment and also help you spend your free time </P>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!---------------contact--------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-regular fa-paper-plane"></i> contact@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>123456789</p>
+                    <div class="social-media">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        
+                    </div>
+                    <a href="images/cv.jpg" download class="btn btn2">Download CV</a>
+                   
+                </div>
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright . Made with  by Sami</p>
+        </div>
+    </div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0" ;
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px" ;
+    }
+</script>  
+</body>
+</html>
